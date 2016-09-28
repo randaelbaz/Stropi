@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD192401D9C242D0096B93D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1923F1D9C242D0096B93D /* main.m */; };
+		9BD192431D9C242D0096B93D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD192421D9C242D0096B93D /* AppDelegate.m */; };
+		9BD192461D9C242D0096B93D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD192451D9C242D0096B93D /* ViewController.m */; };
+		9BD192491D9C242D0096B93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD192471D9C242D0096B93D /* Main.storyboard */; };
+		9BD1924B1D9C242D0096B93D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD1924A1D9C242D0096B93D /* Assets.xcassets */; };
+		9BD1924E1D9C242D0096B93D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD1924C1D9C242D0096B93D /* LaunchScreen.storyboard */; };
+		9BD192591D9C242D0096B93D /* StropiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD192581D9C242D0096B93D /* StropiTests.m */; };
+		9BD192641D9C242D0096B93D /* StropiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD192631D9C242D0096B93D /* StropiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BD192551D9C242D0096B93D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD192331D9C242D0096B93D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD1923A1D9C242D0096B93D;
+			remoteInfo = Stropi;
+		};
+		9BD192601D9C242D0096B93D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BD192331D9C242D0096B93D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD1923A1D9C242D0096B93D;
+			remoteInfo = Stropi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BD1923B1D9C242D0096B93D /* Stropi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stropi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD1923F1D9C242D0096B93D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD192411D9C242D0096B93D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BD192421D9C242D0096B93D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BD192441D9C242D0096B93D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BD192451D9C242D0096B93D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BD192481D9C242D0096B93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD1924A1D9C242D0096B93D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD1924D1D9C242D0096B93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BD1924F1D9C242D0096B93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD192541D9C242D0096B93D /* StropiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StropiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD192581D9C242D0096B93D /* StropiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StropiTests.m; sourceTree = "<group>"; };
+		9BD1925A1D9C242D0096B93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD1925F1D9C242D0096B93D /* StropiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StropiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD192631D9C242D0096B93D /* StropiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StropiUITests.m; sourceTree = "<group>"; };
+		9BD192651D9C242D0096B93D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD192381D9C242D0096B93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD192511D9C242D0096B93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD1925C1D9C242D0096B93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD192321D9C242D0096B93D = {
+			isa = PBXGroup;
+			children = (
+				9BD1923D1D9C242D0096B93D /* Stropi */,
+				9BD192571D9C242D0096B93D /* StropiTests */,
+				9BD192621D9C242D0096B93D /* StropiUITests */,
+				9BD1923C1D9C242D0096B93D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD1923C1D9C242D0096B93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1923B1D9C242D0096B93D /* Stropi.app */,
+				9BD192541D9C242D0096B93D /* StropiTests.xctest */,
+				9BD1925F1D9C242D0096B93D /* StropiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD1923D1D9C242D0096B93D /* Stropi */ = {
+			isa = PBXGroup;
+			children = (
+				9BD192411D9C242D0096B93D /* AppDelegate.h */,
+				9BD192421D9C242D0096B93D /* AppDelegate.m */,
+				9BD192441D9C242D0096B93D /* ViewController.h */,
+				9BD192451D9C242D0096B93D /* ViewController.m */,
+				9BD192471D9C242D0096B93D /* Main.storyboard */,
+				9BD1924A1D9C242D0096B93D /* Assets.xcassets */,
+				9BD1924C1D9C242D0096B93D /* LaunchScreen.storyboard */,
+				9BD1924F1D9C242D0096B93D /* Info.plist */,
+				9BD1923E1D9C242D0096B93D /* Supporting Files */,
+			);
+			path = Stropi;
+			sourceTree = "<group>";
+		};
+		9BD1923E1D9C242D0096B93D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1923F1D9C242D0096B93D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BD192571D9C242D0096B93D /* StropiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD192581D9C242D0096B93D /* StropiTests.m */,
+				9BD1925A1D9C242D0096B93D /* Info.plist */,
+			);
+			path = StropiTests;
+			sourceTree = "<group>";
+		};
+		9BD192621D9C242D0096B93D /* StropiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BD192631D9C242D0096B93D /* StropiUITests.m */,
+				9BD192651D9C242D0096B93D /* Info.plist */,
+			);
+			path = StropiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD1923A1D9C242D0096B93D /* Stropi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD192681D9C242D0096B93D /* Build configuration list for PBXNativeTarget "Stropi" */;
+			buildPhases = (
+				9BD192371D9C242D0096B93D /* Sources */,
+				9BD192381D9C242D0096B93D /* Frameworks */,
+				9BD192391D9C242D0096B93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stropi;
+			productName = Stropi;
+			productReference = 9BD1923B1D9C242D0096B93D /* Stropi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BD192531D9C242D0096B93D /* StropiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD1926B1D9C242D0096B93D /* Build configuration list for PBXNativeTarget "StropiTests" */;
+			buildPhases = (
+				9BD192501D9C242D0096B93D /* Sources */,
+				9BD192511D9C242D0096B93D /* Frameworks */,
+				9BD192521D9C242D0096B93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD192561D9C242D0096B93D /* PBXTargetDependency */,
+			);
+			name = StropiTests;
+			productName = StropiTests;
+			productReference = 9BD192541D9C242D0096B93D /* StropiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BD1925E1D9C242D0096B93D /* StropiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD1926E1D9C242D0096B93D /* Build configuration list for PBXNativeTarget "StropiUITests" */;
+			buildPhases = (
+				9BD1925B1D9C242D0096B93D /* Sources */,
+				9BD1925C1D9C242D0096B93D /* Frameworks */,
+				9BD1925D1D9C242D0096B93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BD192611D9C242D0096B93D /* PBXTargetDependency */,
+			);
+			name = StropiUITests;
+			productName = StropiUITests;
+			productReference = 9BD1925F1D9C242D0096B93D /* StropiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD192331D9C242D0096B93D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Randa Hossam";
+				TargetAttributes = {
+					9BD1923A1D9C242D0096B93D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9BD192531D9C242D0096B93D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9BD1923A1D9C242D0096B93D;
+					};
+					9BD1925E1D9C242D0096B93D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9BD1923A1D9C242D0096B93D;
+					};
+				};
+			};
+			buildConfigurationList = 9BD192361D9C242D0096B93D /* Build configuration list for PBXProject "Stropi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD192321D9C242D0096B93D;
+			productRefGroup = 9BD1923C1D9C242D0096B93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD1923A1D9C242D0096B93D /* Stropi */,
+				9BD192531D9C242D0096B93D /* StropiTests */,
+				9BD1925E1D9C242D0096B93D /* StropiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD192391D9C242D0096B93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD1924E1D9C242D0096B93D /* LaunchScreen.storyboard in Resources */,
+				9BD1924B1D9C242D0096B93D /* Assets.xcassets in Resources */,
+				9BD192491D9C242D0096B93D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD192521D9C242D0096B93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD1925D1D9C242D0096B93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD192371D9C242D0096B93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD192461D9C242D0096B93D /* ViewController.m in Sources */,
+				9BD192431D9C242D0096B93D /* AppDelegate.m in Sources */,
+				9BD192401D9C242D0096B93D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD192501D9C242D0096B93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD192591D9C242D0096B93D /* StropiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD1925B1D9C242D0096B93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD192641D9C242D0096B93D /* StropiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BD192561D9C242D0096B93D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD1923A1D9C242D0096B93D /* Stropi */;
+			targetProxy = 9BD192551D9C242D0096B93D /* PBXContainerItemProxy */;
+		};
+		9BD192611D9C242D0096B93D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BD1923A1D9C242D0096B93D /* Stropi */;
+			targetProxy = 9BD192601D9C242D0096B93D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BD192471D9C242D0096B93D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD192481D9C242D0096B93D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BD1924C1D9C242D0096B93D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD1924D1D9C242D0096B93D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD192661D9C242D0096B93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BD192671D9C242D0096B93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BD192691D9C242D0096B93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stropi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.Stropi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BD1926A1D9C242D0096B93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stropi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.Stropi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9BD1926C1D9C242D0096B93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StropiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.StropiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stropi.app/Stropi";
+			};
+			name = Debug;
+		};
+		9BD1926D1D9C242D0096B93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StropiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.StropiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stropi.app/Stropi";
+			};
+			name = Release;
+		};
+		9BD1926F1D9C242D0096B93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StropiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.StropiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stropi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9BD192701D9C242D0096B93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StropiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.StropiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Stropi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD192361D9C242D0096B93D /* Build configuration list for PBXProject "Stropi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD192661D9C242D0096B93D /* Debug */,
+				9BD192671D9C242D0096B93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD192681D9C242D0096B93D /* Build configuration list for PBXNativeTarget "Stropi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD192691D9C242D0096B93D /* Debug */,
+				9BD1926A1D9C242D0096B93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BD1926B1D9C242D0096B93D /* Build configuration list for PBXNativeTarget "StropiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD1926C1D9C242D0096B93D /* Debug */,
+				9BD1926D1D9C242D0096B93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BD1926E1D9C242D0096B93D /* Build configuration list for PBXNativeTarget "StropiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD1926F1D9C242D0096B93D /* Debug */,
+				9BD192701D9C242D0096B93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD192331D9C242D0096B93D /* Project object */;
+}
